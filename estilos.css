@@ -1,0 +1,11 @@
+html{background: rgb(97, 30, 75) url(./img/bg.png) scroll; color: #c0c0c0;}
+h1{font-family: 'Beau Rivage', cursive; font-size: 4rem; font-kerning: normal;}
+h2{font-size: 2rem;}
+header > nav{text-align: left; width: 95vw;}
+header{position:sticky; width: 100vw; top: 0px; border-width: 0px; margin: 0px; padding: 0px; background-color: #300b3b; text-align: center; background-image: url(./img/bannerBG.png);}
+a{color: violet; text-decoration: none;}
+p{text-align: center; font-size: 1.2rem; font-weight: 400;}
+footer{text-align: center; background-color: #300b3b; position: fixed; bottom: 0; width: 100vw; height: 120px; background-image: url(./img/bannerBG.png);}
+footer > nav{text-align: center;}
+h4{text-align: center; padding: 10px;}
+#avatarEsquina{border-width: 0px; margin: 0px; padding: 0px;  position: fixed; bottom: 120px; right: 0px; width: 20vw;}
