@@ -28,13 +28,27 @@
         </div>
         <div><img src="./img/Pride2021Transparent.png" alt="avatarEsquina" tooltip="Bienvenidos al Rincón de la Bruja!" id="avatarEsquina"></div>
         <main class="contenido">
-            <h2>Bienvenidos</h2>
-            <p>Bienvenidos a la morada de esta humilde bruja, pasen, sientanse cómodos, disfruten de las piezas de arte de la galería o déjenme una nota con sus opiniones, siempre son bienvenidas nuevas formas para mejorar la atención.</p>
-        </main>
-        <blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Decided to revamp my comm prices, all prices are in US dollars, any questions, feel free to DM me <a href="https://t.co/2H5cJy1hk1">pic.twitter.com/2H5cJy1hk1</a></p>&mdash; Mighty Cleffa (Commisions open) (@MightyCleffa) <a href="https://twitter.com/MightyCleffa/status/1226617338574884864?ref_src=twsrc%5Etfw">February 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <div class="youtube-video">
-            <iframe  width="80%" height="60%" src="https://www.youtube.com/embed/CgM46B4kQ7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+            <h2>Formulario de contacto:</h2>
+            <div>
+                <form name="contacto" action="" onsubmit="return validarFormulario();">
+                    <label for="username">Nombre/Usuario: </label>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="tema">Razón del contacto:</label><br>
+                    <input type="radio" id="consulta" name="tema" value="consulta">
+                    <label for="consulta">consulta</label>
+                    <input type="radio" id="comision" name="tema" value="comision">
+                    <label for="comision">comision</label>
+                    <input type="radio" id="reclamo" name="tema" value="reclamo">
+                    <label for="reclamo">reclamo</label><br>
+                    <label for="mail">email de contacto: </label>
+                    <input type="email" id="mail" name="mail"><br>
+                    <label for="descripcion">descripcion:</label><br>
+                    <textarea id="descripcion" name="descripcion"></textarea><br>
+                    <input type="submit">
+                </form>
+            </div>
+      
+       </main>
     </div>
 
     <footer class="footer">
@@ -47,5 +61,6 @@
         <h4>Derechos reservados 2022 <br> MightyCleffa Inc.<h4>
 
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
